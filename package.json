@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "test",
   "main": "index.js",
-  "dependencies": {
-    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
-    "cypress": "^12.5.1",
-    "esbuild": "^0.17.5"
-  },
   "devDependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "^15.1.3",
+    "@badeball/cypress-cucumber-preprocessor": "^14.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "@esbuild-plugins/node-modules-polyfill": "^0.1.4",
+    "@testing-library/cypress": "^8.0.2",
+    "cypress": "^12.5.0",
+    "cypress-file-upload": "^5.0.8",
     "cypress-mochawesome-reporter": "^3.2.3"
   },
   "scripts": {
